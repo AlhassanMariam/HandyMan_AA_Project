@@ -1,9 +1,10 @@
 import { useState } from 'react'
 
 import './App.css'
-import Navbar from './components/NavBar'
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import HeroSection from './components/HeroSection'
+
+import HomePage from './pages/HomePage';
 
 function App() {
   
@@ -12,7 +13,7 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HeroSection />} />
+        <Route path="/" element={<HomePage/>} />
       </Routes>
     </BrowserRouter>
     </>
