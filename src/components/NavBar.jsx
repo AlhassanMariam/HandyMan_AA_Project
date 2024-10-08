@@ -23,7 +23,7 @@ const Navbar = ({ id, onLogout }) => {
                 <ul className='hidden md:flex space-x-6 text-xl  font-semibold'>
 
                    <li className='hover:text-[#0E3995] '> <Link to={"/"}> Home </Link> </li>
-                   <li className='hover:text-[#0E3995]'> <Link to={"/DisplayShoppingList"}> Services</Link> </li>
+                   <li className='hover:text-[#0E3995]'> <Link to={"/services"}> Services</Link> </li>
                     <li className='hover:text-[#0E3995]'><Link to={"/AddNew"}> Gallery </Link></li>
                     <li className='hover:text-[#0E3995]'><Link to={"/welcome"}> Blog </Link></li>
                     <li className='hover:text-[#0E3995]'><Link to={"/welcome"}> Contact Us </Link></li>
