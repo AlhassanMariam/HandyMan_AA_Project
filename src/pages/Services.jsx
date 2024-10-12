@@ -59,17 +59,19 @@ const Services = () => {
         ]
   return (
    <>
-   <section className='px-4 flex flex-col justify-center items-center w-full'>
+   <section className='flex flex-col items-center justify-center w-full px-4'>
    <div style={{backgroundImage: `url(${defaultBackground})`}}
-    className='h-screen w-full p-2  bg-no-repeat bg-cover'>
+    className='w-full h-screen p-2 bg-no-repeat bg-cover'>
        <Navbar />
         <div className='flex flex-col items-center justify-center text-4xl font-bold'>
-            <h1 className='text=[#0a032f] text-center text-6xl font-bold mt-[100px]'>Services Available in your Area</h1>
+            <h1 className='text-[#0E3995] text-center text-6xl font-bold mt-[180px]'>Services Available in your Area</h1>
         </div>
 
-        <input type="search"  placeholder='Search for a service' className=' h-10 px-5 text-xl font-bold border-b-2 border-[#0E3995] focus:outline-none focus:border-blue-500'/>
+       <div className='flex flex-col items-center justify-center text-4xl font-bold mt-[100px]'>
+       <input type="search"  placeholder='Search for a service' className=' h-10 px-5 text-xl font-bold border-b-2 border-[#0E3995] focus:outline-none focus:border-blue-500'/>
+       </div>
     </div>
-    <div className='grid grid-cols-3 gap-10 py-8 w-full'>
+    <div className='grid w-full grid-cols-3 gap-10 py-8'>
     {services.map((service) => (
       <ServicesCard key={service.id} service={service}/>
     ))}

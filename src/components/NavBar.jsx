@@ -24,8 +24,8 @@ const Navbar = ({ id, onLogout }) => {
 
                    <li className='hover:text-[#0E3995] '> <Link to={"/"}> Home </Link> </li>
                    <li className='hover:text-[#0E3995]'> <Link to={"/services"}> Services</Link> </li>
-                    <li className='hover:text-[#0E3995]'><Link to={"/AddNew"}> Gallery </Link></li>
-                    <li className='hover:text-[#0E3995]'><Link to={"/welcome"}> Blog </Link></li>
+                    <li className='hover:text-[#0E3995]'><Link to={"/gallery"}> Gallery </Link></li>
+                    <li className='hover:text-[#0E3995]'><Link to={"/blog"}> Blog </Link></li>
                     <li className='hover:text-[#0E3995]'><Link to={"/welcome"}> Contact Us </Link></li>
 
                    
@@ -63,8 +63,8 @@ const Navbar = ({ id, onLogout }) => {
                     <ul className='block pt-8 space-y-4'>
                         <li className='border-b border-[#0E3995]'> <Link to={"/"}> Home </Link>  </li>
                         <li className='border-b border-[#0E3995]'> <Link to={"/DisplayShoppingList"}> Service </Link>  </li>
-                        <li className='border-b border-[#0E3995]'> <Link to={"/AddNew"}> Gallery </Link> </li>
-                        <li className='border-b border-[#0E3995]'> <Link to={"/AddNew"}> Blog </Link> </li>
+                        <li className='border-b border-[#0E3995]'> <Link to={"/gallery"}> Gallery </Link> </li>
+                        <li className='border-b border-[#0E3995]'> <Link to={"/blog"}> Blog </Link> </li>
                         <li className='border-b border-[#0E3995]'> <Link to={"/AddNew"}> Contact Us </Link> </li>
                     </ul>
                     
